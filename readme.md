@@ -1,0 +1,1 @@
+A repository of a guy undertaking statistics work via coding while possessing sparse knowledge and skill in both domains. 
