@@ -53,9 +53,9 @@ ptds = (billboards <= .25).prod(axis=1).mean()
 # how likely is it that I will be able to buy some poptarts on Friday afternoon?
 
 poptarts = np.random.normal(3, 1.5,(1000000,5))
-poptarts
-# p_friday = (poptarts.sum(axis=1) <= 16).mean()
-# p_friday
+poptarts = poptarts.round()
+p_friday = (poptarts.sum(axis=1) <= 16).mean()
+p_friday
 
 
 # In[26]:
